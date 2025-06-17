@@ -12,6 +12,6 @@ public static class Program
 
     private static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
-            .UseWebRoot("") 
+            .UseWebRoot("")
             .UseStartup<Startup>();
 } 
