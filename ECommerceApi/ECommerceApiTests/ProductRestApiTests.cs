@@ -28,7 +28,7 @@ public class ProductRestApiTests
         var result = await handler.Handle(command, CancellationToken.None);
 
         // Assert
-        Assert.NotNull(result);
+        Assert.Null(result);
         Assert.Equal(command.Name, result.Name);
         Assert.Equal(command.Price, result.Price);
         Assert.NotEqual(Guid.Empty, result.Id);
