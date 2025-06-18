@@ -23,8 +23,7 @@ public class ECommerceController : ControllerBase
         Product result;
         try
         {
-            //result = await _mediator.Send(command);
-            throw new Exception();
+            result = await _mediator.Send(command);
         }
         catch (Exception ex)
         {
