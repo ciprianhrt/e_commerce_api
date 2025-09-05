@@ -14,4 +14,4 @@ public static class Program
         WebHost.CreateDefaultBuilder(args)
             .UseWebRoot("")
             .UseStartup<Startup>();
-}
+} 
